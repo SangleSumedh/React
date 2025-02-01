@@ -25,13 +25,17 @@ To run any of these projects locally:
    ```
 
 2. **Navigate to the desired project directory:**
+   ```bash
    cd project-directory
-
+   ```
 3. **Install dependencies:**
+   ```bash
    npm install
+   ```
 4. **Start the development server:**
+   ```bash
    npm run dev
-
+   ```
 ## Technologies Used:
 
 **React**: A JavaScript library for building user interfaces.
@@ -44,7 +48,7 @@ To run any of these projects locally:
 **npm**: A package manager for JavaScript.
 
 ## Author
-
 **Sumedh Sangle**
 
 - [GitHub](https://github.com/SangleSumedh)
+- [LinkedIn](https://linkedin.com/in/sumedhsangle)
