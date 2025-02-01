@@ -21,3 +21,30 @@ To run any of these projects locally:
    ```bash
    git clone https://github.com/SangleSumedh/React.git
    cd React
+
+   ```
+
+2. **Navigate to the desired project directory:**
+   cd project-directory
+
+3. **Install dependencies:**
+   npm install
+4. **Start the development server:**
+   npm run dev
+
+## Technologies Used:
+
+**React**: A JavaScript library for building user interfaces.
+**Vite**: A fast build tool for modern web projects.
+**Tailwind CSS**: A utility first CSS framework for styling.
+**JavaScript**: A high-level, interpreted programming language.
+**HTML**: A standard markup language for creating web pages.
+**CSS**: A style sheet language used for describing the presentation of a document written in HTML.
+**Node.js**: An open-source, cross-platform, back-end JavaScript runtime environment.
+**npm**: A package manager for JavaScript.
+
+## Author
+
+**Sumedh Sangle**
+
+- [GitHub](https://github.com/SangleSumedh)
