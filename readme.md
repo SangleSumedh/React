@@ -57,7 +57,7 @@ To run any of these projects locally:
 
 ## Author
 
-## Sumedh Sangle**
+# Sumedh Sangle
 
 - [GitHub](https://github.com/SangleSumedh)
 - [LinkedIn](https://linkedin.com/in/sumedhsangle)
