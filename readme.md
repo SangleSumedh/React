@@ -55,9 +55,9 @@ To run any of these projects locally:
 
 **npm**: A package manager for JavaScript.
 
-## Author
+# Author
 
-# Sumedh Sangle
+## Sumedh Sangle
 
 - [GitHub](https://github.com/SangleSumedh)
 - [LinkedIn](https://linkedin.com/in/sumedhsangle)
