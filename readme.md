@@ -10,7 +10,8 @@ Welcome to my React learning repository! This repository documents my progress a
 4. **03tailwindprops**: A project combining Tailwind CSS with React props for styling.
 5. **04bgchanger**: A background color changer application to experiment with event handling.
 6. **05passwordgenerator**: A password generator tool built with React.
-7. **customReact**: An exploration into building a custom React-like framework.
+7. **06currencyconverter**: A currency exchange tool built using React and currency-api.
+8. **customReact**: An exploration into building a custom React-like framework.
 
 ## Getting Started
 
