@@ -62,3 +62,8 @@ To run any of these projects locally:
 
 - [GitHub](https://github.com/SangleSumedh)
 - [LinkedIn](https://linkedin.com/in/sumedhsangle)
+
+## License
+
+- This project is licensed under the MIT License. See the [LICENSE](./Licence.txt) for details.
+
