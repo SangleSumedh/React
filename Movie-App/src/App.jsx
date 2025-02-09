@@ -18,9 +18,28 @@ const movie2 = {
 function App() {
   return (
     <>
-      <div className="bg-gray-900 text-white flex justify-center items-center min-h-screen">
-          <MovieCard movie={movie} />
-          <MovieCard movie={movie2} />
+      <div className="bg-gray-900 text-white flex justify-center items-center min-h-screen flex-wrap">
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie2} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
+        <MovieCard movie={movie} />
       </div>
     </>
   );
