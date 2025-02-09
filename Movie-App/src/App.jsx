@@ -3,46 +3,28 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import MovieCard from "./components/MovieCard";
-
-const movie = {
-  title: "SpiderMan",
-  url: "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Web_of_Spider-Man_Vol_1_129-1.png/240px-Web_of_Spider-Man_Vol_1_129-1.png",
-  release_date: "23/3/2025",
-};
-const movie2 = {
-  title: "Terminator",
-  url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSveW8eBP7IqMaUeBTYhPM8NwwwIT2cxbkRYQ&s",
-  release_date: "2/5/2025",
-};
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
+import Favorites from "./pages/Favorites";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <div className="bg-gray-900 text-white flex justify-center items-center min-h-screen flex-wrap">
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie2} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-        <MovieCard movie={movie} />
-      </div>
+      <Navbar />
+      <main className="bg-gray-800 min-h-screen w-full flex-col flex-wrap text-white">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/favorites" element={<Favorites />} />
+        </Routes>
+      </main>
     </>
   );
 }
 
 export default App;
+{
+  /* <div className="bg-gray-800 min-h-screen w-full flex-col flex-wrap">
+         <Home />
+      </div> */
+}

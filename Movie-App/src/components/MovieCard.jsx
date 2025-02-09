@@ -8,7 +8,7 @@ function MovieCard({ movie }) {
   return (
     <>
       <div
-        className="relative max-w-xs overflow-hidden rounded-2xl shadow-lg group h-[40vh] w-[30vh] m-2 "
+        className="relative max-w-xs overflow-hidden rounded-2xl shadow-lg group h-[40vh] w-[30vh] m-2 mr-2 "
         id="movie-card"
       >
         <div className="" id="movie-poster">
@@ -21,7 +21,7 @@ function MovieCard({ movie }) {
           </div>
         </div>
         <div id="movie-info" className="absolute inset-0 flex items-center justify-end flex-col bg-gradient-to-t from-black/90 ">
-          <h3 className="text-2xl font-bold font-serif">{movie.title}</h3>
+          <h3 className="text-2xl font-bold font-serif text-center">{movie.title}</h3>
           <p className="text-lg">{movie.release_date}</p>
         </div>
       </div>
